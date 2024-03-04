@@ -1,1 +1,28 @@
 /* Write your CSS here! */
+html {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(88, 150, 248);
+    }
+body {
+    display: block;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+h2 { 
+    text-align: center;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+section {
+	margin: 1.875em 0;
+    background-color: rgb(198, 221, 221);
+}
+button {
+    display: inline-block;
+   
+}
