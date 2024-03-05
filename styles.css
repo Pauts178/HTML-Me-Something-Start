@@ -1,28 +1,44 @@
 /* Write your CSS here! */
 html {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(88, 150, 248);
+    background-image: url(images/CSI.jpg);
+    background-attachment: fixed;
+    background-size: 50%;
     }
 body {
     display: block;
     text-align: center;
+    margin: 8px
 }
 h1 {
     text-align: center;
+    background-color: rgb(76, 156, 255);
+    font-size:36pt;
 }
-
 h2 { 
     text-align: center;
+    background-color: rgb(76, 156, 255);
+    font-size: 28pt;  
+}
+h3 {
+    font-size: 20pt;
+    text-decoration: underline;
 }
 ul {
     text-align: center;
     list-style-type: none;
+    font-size: 16pt;
 }
 section {
-	margin: 1.875em 0;
-    background-color: rgb(198, 221, 221);
+	margin: 6%;
+    background-color: rgb(76, 156, 255);
+    padding: 2%;
 }
-button {
-    display: inline-block;
-   
+
+p {
+    font-size: 16pt;
 }
+.orgs {
+    font-weight: bold ;
+}
+
