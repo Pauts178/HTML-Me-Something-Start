@@ -8,17 +8,24 @@ html {
 body {
     display: block;
     text-align: center;
-    margin: 8px
+    margin: 8px;
 }
 h1 {
+    display: block;
     text-align: center;
     background-color: rgb(76, 156, 255);
     font-size:36pt;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 20px 500px
 }
 h2 { 
     text-align: center;
     background-color: rgb(76, 156, 255);
-    font-size: 28pt;  
+    font-size: 28pt;
+    border-radius: 8px;
+    padding: 5px;  
+    margin: 20px 500px
 }
 h3 {
     font-size: 20pt;
@@ -33,12 +40,27 @@ section {
 	margin: 6%;
     background-color: rgb(76, 156, 255);
     padding: 2%;
+    border-radius: 8px;
+    padding: 5px;
+}
+footer {
+    background-color: rgb(76, 156, 255);
+    margin: 20px 600px;
+    border-radius: 8px;
 }
 
 p {
     font-size: 16pt;
 }
 .orgs {
-    font-weight: bold ;
+    font-weight: bold;
+    font-style: italic;
 }
+#mainHeading {
+    color: red;
+}
+.funParagraph {
+    color: green;
+}
+
 
